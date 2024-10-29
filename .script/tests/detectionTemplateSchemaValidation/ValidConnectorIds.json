@@ -115,6 +115,7 @@
   "MicrosoftDefenderAdvancedThreatProtection",
   "MicrosoftSysmonForLinux",
   "MicrosoftThreatProtection",
+  "MimecastSEGAPI",
   "MorphisecUTPP",
   "NasuniEdgeAppliance",
   "NXLogDnsLogs",
@@ -165,6 +166,8 @@
   "SymantecVIP",
   "Syslog",
   "Tenable.ad",
+  "TenableVM",
+  "TenableIE",
   "ThreatIntelligence",
   "ThreatIntelligenceTaxii",
   "ThreatIntelligenceUploadIndicatorsAPI",
@@ -243,5 +246,10 @@
   "NetskopeWebTransactionsDataConnector",
   "CefAma",
   "WindowsFirewallAma",
-  "1Password"
+  "1Password",
+  "RadiflowIsid",
+  "CustomLogsAma",
+  "SilverfortAma",
+  "IllumioSaaSDataConnector",
+  "CTERA"
 ]
