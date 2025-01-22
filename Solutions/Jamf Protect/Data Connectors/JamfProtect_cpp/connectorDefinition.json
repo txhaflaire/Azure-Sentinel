@@ -1,5 +1,5 @@
 {
-  "name": "[concat(parameters('workspace'),'/Microsoft.SecurityInsights/',variables('_dataConnectorContentIdConnectorDefinition'))]",
+  "name": "JamfProtect",
   "apiVersion": "2022-09-01-preview",
   "type": "Microsoft.OperationalInsights/workspaces/providers/dataConnectorDefinitions",
   "location": "[parameters('workspace-location')]",

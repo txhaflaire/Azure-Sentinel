@@ -4,7 +4,7 @@
   "type": "Microsoft.SecurityInsights/dataConnectors",
   "kind": "Push",
   "properties": {
-    "connectorDefinitionName": "",
+    "connectorDefinitionName": "JamfProtect",
     "dcrConfig": {
 			"dataCollectionRuleId": "[[parameters('dcrConfig').dataCollectionRuleId]",
 			"dataCollectionRuleImmutableId": "",
