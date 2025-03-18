@@ -1,5 +1,6 @@
 | **Version** | **Date Modified (DD-MM-YYYY)** | **Change History**                          |
 |-------------|--------------------------------|---------------------------------------------|
+|3.2.4        | 18-03-2025                     | Changes to resolve fields having a suffix with _dynamic or _string
 |3.2.1        | 24-02-2025                     | Adding support for the newly released `gatekeeper_user_override` event and removing totalRetentionInDays from the Push Connector.
 | 3.2.0       | 04-02-2025                     | Added new CCP **Data Connector** to the Solution.
 | 3.1.1       | 30-04-2024                     | Repackaged for parser issue fix while reinstall.

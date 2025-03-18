@@ -30,7 +30,7 @@
         },
         {
           "name": "thread",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "TimeGenerated",
@@ -42,19 +42,19 @@
         },
         {
           "name": "EventVendor",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "EventProduct",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "EventSchemaVersion",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "EventProductVersion",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "EventSeverity",
@@ -62,15 +62,15 @@
         },
         {
           "name": "TargetHostname",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "DvcHostname",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "DvcSerial",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "DvcIpAddr",
@@ -78,7 +78,7 @@
         },
         {
           "name": "DvcId",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "DvcOs",
@@ -86,7 +86,7 @@
         },
         {
           "name": "DvcOsVersion",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "SrcDeviceType",

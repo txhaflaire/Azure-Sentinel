@@ -26,7 +26,7 @@
           },
           {
             "name": "EventProductVersion",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "EventSeverity",
@@ -34,11 +34,11 @@
           },
           {
             "name": "EventOriginalType",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "EventOriginalUid",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "EventType",
@@ -50,23 +50,23 @@
           },
           {
             "name": "EventMessage",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "EventResultMessage",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "TargetHostname",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "DvcHostname",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "DvcSerial",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "DvcIpAddr",
@@ -74,7 +74,7 @@
           },
           {
             "name": "DvcId",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "DvcOs",
@@ -82,7 +82,7 @@
           },
           {
             "name": "DvcOsVersion",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "SrcDeviceType",
@@ -122,15 +122,15 @@
           },
           {
             "name": "TargetProcessName",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "TargetProcessId",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "TargetProcessGuid",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "TargetProcessSHA1",
@@ -142,7 +142,7 @@
           },
           {
             "name": "TargetProcessCommandLine",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "TargetProcessCurrentDirectory",
@@ -154,23 +154,23 @@
           },
           {
             "name": "TargetFilePath",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "TargetFileSHA1",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "TargetFileSHA256",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "TargetFileSize",
-            "type": "dynamic"
+            "type": "real"
           },
           {
             "name": "TargetFileSigningInfoMessage",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "TargetFileSignerType",
@@ -178,7 +178,7 @@
           },
           {
             "name": "TargetFileSigningTeamID",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "TargetFileIsDownload",
@@ -198,23 +198,23 @@
           },
           {
             "name": "TargetFileExtendedAttributes",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "TargetBinaryFilePath",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "TargetBinarySHA1",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "TargetBinarySHA256",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "TargetBinarySigningInfoMessage",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "TargetbinarySignerType",
@@ -222,11 +222,11 @@
           },
           {
             "name": "TargetBinarySigningTeamID",
-            "type": "dynamic"
+            "type": "string"
           },
           {
             "name": "TargetBinarySigningAppID",
-            "type": "dynamic"
+            "type": "string"
           }
         ]
       },

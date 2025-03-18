@@ -18,7 +18,7 @@
         },
         {
           "name": "EventProductVersion",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "EventSeverity",
@@ -26,11 +26,11 @@
         },
         {
           "name": "EventOriginalType",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "EventOriginalUid",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "EventType",
@@ -42,31 +42,31 @@
         },
         {
           "name": "EventMessage",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "EventResultMessage",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "TargetHostname",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "DvcHostname",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "DvcSerial",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "DvcIpAddr",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "DvcId",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "DvcOs",
@@ -74,7 +74,7 @@
         },
         {
           "name": "DvcOsVersion",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "SrcDeviceType",
@@ -90,23 +90,23 @@
         },
         {
           "name": "TargetProcessName",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "TargetProcessId",
-          "type": "dynamic"
+          "type": "real"
         },
         {
           "name": "TargetProcessGuid",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "TargetProcessCommandLine",
-          "type": "dynamic"
+          "type": "string"
         },
         {
           "name": "TargetProcessCurrentDirectory",
-          "type": "dynamic"
+          "type": "string"
         }
       ]
     },

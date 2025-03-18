@@ -7,7 +7,7 @@ status: Available
 requiredDataConnectors:
   - connectorId: JamfProtect
     dataTypes: 
-      - jamfprotect_CL
+      - jamfprotectunifiedlogs_CL
 suppressionDuration: PT5H
 eventGroupingSettings:
   aggregationKind: AlertPerResult
@@ -15,10 +15,9 @@ suppressionEnabled: false
 tactics:
 relevantTechniques:
 query: |
-  JamfProtect
-  | where EventType == "UnifiedLog"
-  | where isnotempty(EventSeverity)
-  | extend Host_IPs = tostring(parse_json(DvcIpAddr)[0])
+  jamfprotectunifiedlogs_CL
+  | extend
+      Host_IPs = tostring(parse_json(DvcIpAddr)[0])
 incidentConfiguration:
   createIncident: true
   groupingConfiguration:
@@ -38,7 +37,6 @@ alertDetailsOverride:
 customDetails:
   Protect_Event_Type: EventType
   Unified_Log: EventDescription
-  Tags: Match_tags
   Event_Process: TargetProcessName
 entityMappings:
 - entityType: Host
@@ -49,5 +47,5 @@ entityMappings:
   fieldMappings:
   - identifier: Address
     columnName: Host_IPs
-version: 1.0.2
+version: 1.0.3
 kind: NRT
